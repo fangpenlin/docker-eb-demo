@@ -22,4 +22,4 @@ RUN pip install -e /srv/echoapp
 
 VOLUME ["/var/log"]
 ENTRYPOINT ["/sbin/my_init"]
-EXPOSE 5000
+EXPOSE 80
