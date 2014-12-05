@@ -4,10 +4,6 @@
     "Name": "victorlin/echoapp",
     "Update": "true"
   },
-  "Authentication": {
-      "Bucket": "my-secret-s3-bucket",
-      "Key": "docker/.dockercfg"
-  },
   "Ports": [
     {
       "ContainerPort": "80"
