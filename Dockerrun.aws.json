@@ -1,0 +1,17 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "victorlin/echoapp",
+    "Update": "true"
+  },
+  "Authentication": {
+      "Bucket": "my-secret-s3-bucket",
+      "Key": "docker/.dockercfg"
+  },
+  "Ports": [
+    {
+      "ContainerPort": "80"
+    }
+  ],
+  "Logging": "/var/log/"
+}
